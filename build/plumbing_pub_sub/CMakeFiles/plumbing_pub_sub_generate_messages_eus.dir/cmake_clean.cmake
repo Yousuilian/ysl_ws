@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/plumbing_pub_sub_generate_messages_eus"
-  "/home/opt/ysl_ws/devel/share/roseus/ros/plumbing_pub_sub/msg/Person.l"
-  "/home/opt/ysl_ws/devel/share/roseus/ros/plumbing_pub_sub/manifest.l"
+  "/home/ysl/ysl_ws/devel/share/roseus/ros/plumbing_pub_sub/msg/Person.l"
+  "/home/ysl/ysl_ws/devel/share/roseus/ros/plumbing_pub_sub/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

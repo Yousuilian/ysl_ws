@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/opt/ysl_ws/src
+CMAKE_SOURCE_DIR = /home/ysl/ysl_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/opt/ysl_ws/build
+CMAKE_BINARY_DIR = /home/ysl/ysl_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/opt/ysl_ws/build/CMakeFiles /home/opt/ysl_ws/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ysl/ysl_ws/build/CMakeFiles /home/ysl/ysl_ws/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/opt/ysl_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ysl/ysl_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -792,6 +792,19 @@ plumbing_server_client_generate_messages_lisp/fast:
 .PHONY : plumbing_server_client_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named demo02_client
+
+# Build rule for target.
+demo02_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo02_client
+.PHONY : demo02_client
+
+# fast build rule for target.
+demo02_client/fast:
+	$(MAKE) -f plumbing_server_client/CMakeFiles/demo02_client.dir/build.make plumbing_server_client/CMakeFiles/demo02_client.dir/build
+.PHONY : demo02_client/fast
+
+#=============================================================================
 # Target rules for targets named plumbing_server_client_genlisp
 
 # Build rule for target.
@@ -917,6 +930,7 @@ help:
 	@echo "... _plumbing_server_client_generate_messages_check_deps_AddInts"
 	@echo "... plumbing_server_client_gennodejs"
 	@echo "... plumbing_server_client_generate_messages_lisp"
+	@echo "... demo02_client"
 	@echo "... plumbing_server_client_genlisp"
 	@echo "... plumbing_server_client_generate_messages_nodejs"
 	@echo "... plumbing_server_client_generate_messages_py"

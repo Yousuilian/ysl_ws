@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/demo04_sub_person.dir/src/demo04_sub_person.cpp.o"
-  "/home/opt/ysl_ws/devel/lib/plumbing_pub_sub/demo04_sub_person.pdb"
-  "/home/opt/ysl_ws/devel/lib/plumbing_pub_sub/demo04_sub_person"
+  "/home/ysl/ysl_ws/devel/lib/plumbing_pub_sub/demo04_sub_person.pdb"
+  "/home/ysl/ysl_ws/devel/lib/plumbing_pub_sub/demo04_sub_person"
 )
 
 # Per-language clean rules from dependency scanning.

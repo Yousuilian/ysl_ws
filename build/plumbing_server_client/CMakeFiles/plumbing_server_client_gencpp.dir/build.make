@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/opt/ysl_ws/src
+CMAKE_SOURCE_DIR = /home/ysl/ysl_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/opt/ysl_ws/build
+CMAKE_BINARY_DIR = /home/ysl/ysl_ws/build
 
 # Utility rule file for plumbing_server_client_gencpp.
 
@@ -63,10 +63,10 @@ plumbing_server_client/CMakeFiles/plumbing_server_client_gencpp.dir/build: plumb
 .PHONY : plumbing_server_client/CMakeFiles/plumbing_server_client_gencpp.dir/build
 
 plumbing_server_client/CMakeFiles/plumbing_server_client_gencpp.dir/clean:
-	cd /home/opt/ysl_ws/build/plumbing_server_client && $(CMAKE_COMMAND) -P CMakeFiles/plumbing_server_client_gencpp.dir/cmake_clean.cmake
+	cd /home/ysl/ysl_ws/build/plumbing_server_client && $(CMAKE_COMMAND) -P CMakeFiles/plumbing_server_client_gencpp.dir/cmake_clean.cmake
 .PHONY : plumbing_server_client/CMakeFiles/plumbing_server_client_gencpp.dir/clean
 
 plumbing_server_client/CMakeFiles/plumbing_server_client_gencpp.dir/depend:
-	cd /home/opt/ysl_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/opt/ysl_ws/src /home/opt/ysl_ws/src/plumbing_server_client /home/opt/ysl_ws/build /home/opt/ysl_ws/build/plumbing_server_client /home/opt/ysl_ws/build/plumbing_server_client/CMakeFiles/plumbing_server_client_gencpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ysl/ysl_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ysl/ysl_ws/src /home/ysl/ysl_ws/src/plumbing_server_client /home/ysl/ysl_ws/build /home/ysl/ysl_ws/build/plumbing_server_client /home/ysl/ysl_ws/build/plumbing_server_client/CMakeFiles/plumbing_server_client_gencpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plumbing_server_client/CMakeFiles/plumbing_server_client_gencpp.dir/depend
 

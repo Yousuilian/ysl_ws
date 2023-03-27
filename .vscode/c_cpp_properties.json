@@ -8,7 +8,7 @@
       "includePath": [
         "/opt/ros/melodic/include/**",
         "/usr/include/**",
-        "/home/opt/ysl_ws/devel/include/**"
+        "/home/ysl/ysl_ws/devel/include/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",

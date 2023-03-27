@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/opt/ysl_ws/build'
+export PWD='/home/ysl/ysl_ws/build'

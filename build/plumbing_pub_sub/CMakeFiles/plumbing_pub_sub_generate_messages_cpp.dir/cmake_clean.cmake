@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/plumbing_pub_sub_generate_messages_cpp"
-  "/home/opt/ysl_ws/devel/include/plumbing_pub_sub/Person.h"
+  "/home/ysl/ysl_ws/devel/include/plumbing_pub_sub/Person.h"
 )
 
 # Per-language clean rules from dependency scanning.

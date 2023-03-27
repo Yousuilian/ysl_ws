@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/plumbing_pub_sub_generate_messages_py"
-  "/home/opt/ysl_ws/devel/lib/python2.7/dist-packages/plumbing_pub_sub/msg/_Person.py"
-  "/home/opt/ysl_ws/devel/lib/python2.7/dist-packages/plumbing_pub_sub/msg/__init__.py"
+  "/home/ysl/ysl_ws/devel/lib/python2.7/dist-packages/plumbing_pub_sub/msg/_Person.py"
+  "/home/ysl/ysl_ws/devel/lib/python2.7/dist-packages/plumbing_pub_sub/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.
