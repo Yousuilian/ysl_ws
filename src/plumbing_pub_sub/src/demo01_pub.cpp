@@ -21,6 +21,7 @@ int main(int argc, char *argv[])//main函数框架
         pub.publish(msg);
         ROS_INFO("发布的数据是：%s",ss.str().c_str());//添加日志:
         rate.sleep();
+        ros::spinOnce();//官方建议添加，处理回调函数
     }
     return 0;
 }

@@ -1,4 +1,4 @@
-prefix=/home/ysl/ysl_ws/devel
+prefix=/home/opt/ysl_ws/devel
 
 Name: plumbing_pub_sub
 Description: Description of plumbing_pub_sub

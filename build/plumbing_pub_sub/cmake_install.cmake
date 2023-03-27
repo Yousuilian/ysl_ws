@@ -1,8 +1,8 @@
-# Install script for directory: /home/ysl/ysl_ws/src/plumbing_pub_sub
+# Install script for directory: /home/opt/ysl_ws/src/plumbing_pub_sub
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ysl/ysl_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/opt/ysl_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ysl/ysl_ws/build/plumbing_pub_sub/catkin_generated/installspace/plumbing_pub_sub.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/opt/ysl_ws/build/plumbing_pub_sub/catkin_generated/installspace/plumbing_pub_sub.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_pub_sub/cmake" TYPE FILE FILES
-    "/home/ysl/ysl_ws/build/plumbing_pub_sub/catkin_generated/installspace/plumbing_pub_subConfig.cmake"
-    "/home/ysl/ysl_ws/build/plumbing_pub_sub/catkin_generated/installspace/plumbing_pub_subConfig-version.cmake"
+    "/home/opt/ysl_ws/build/plumbing_pub_sub/catkin_generated/installspace/plumbing_pub_subConfig.cmake"
+    "/home/opt/ysl_ws/build/plumbing_pub_sub/catkin_generated/installspace/plumbing_pub_subConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_pub_sub" TYPE FILE FILES "/home/ysl/ysl_ws/src/plumbing_pub_sub/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_pub_sub" TYPE FILE FILES "/home/opt/ysl_ws/src/plumbing_pub_sub/package.xml")
 endif()
 
