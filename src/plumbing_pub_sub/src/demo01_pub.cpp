@@ -12,6 +12,7 @@ int main(int argc, char *argv[])//main函数框架
     std_msgs::String msg;//创建被发布的消息
     ros::Rate rate(5);//发布频率
     int count = 0;//设置编号
+    ros::Duration(3).sleep();
     while (ros::ok)//编写循环，循环中发布数据
     {
         count++;
