@@ -610,6 +610,19 @@ plumbing_pub_sub_generate_messages_py/fast:
 .PHONY : plumbing_pub_sub_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named demo04_sub_person
+
+# Build rule for target.
+demo04_sub_person: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo04_sub_person
+.PHONY : demo04_sub_person
+
+# fast build rule for target.
+demo04_sub_person/fast:
+	$(MAKE) -f plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/build.make plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/build
+.PHONY : demo04_sub_person/fast
+
+#=============================================================================
 # Target rules for targets named plumbing_pub_sub_gencpp
 
 # Build rule for target.
@@ -721,6 +734,7 @@ help:
 	@echo "... plumbing_pub_sub_generate_messages_nodejs"
 	@echo "... plumbing_pub_sub_gennodejs"
 	@echo "... plumbing_pub_sub_generate_messages_py"
+	@echo "... demo04_sub_person"
 	@echo "... plumbing_pub_sub_gencpp"
 	@echo "... plumbing_pub_sub_genpy"
 	@echo "... demo01_pub"

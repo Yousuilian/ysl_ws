@@ -68,6 +68,18 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -100,18 +112,6 @@ install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
 
 # Special rule for the target test
 test:
@@ -543,6 +543,21 @@ plumbing_pub_sub_generate_messages_py/fast:
 .PHONY : plumbing_pub_sub_generate_messages_py/fast
 
 # Convenience name for target.
+plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/rule:
+	cd /home/opt/ysl_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/rule
+.PHONY : plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/rule
+
+# Convenience name for target.
+demo04_sub_person: plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/rule
+
+.PHONY : demo04_sub_person
+
+# fast build rule for target.
+demo04_sub_person/fast:
+	cd /home/opt/ysl_ws/build && $(MAKE) -f plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/build.make plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/build
+.PHONY : demo04_sub_person/fast
+
+# Convenience name for target.
 plumbing_pub_sub/CMakeFiles/plumbing_pub_sub_gencpp.dir/rule:
 	cd /home/opt/ysl_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plumbing_pub_sub/CMakeFiles/plumbing_pub_sub_gencpp.dir/rule
 .PHONY : plumbing_pub_sub/CMakeFiles/plumbing_pub_sub_gencpp.dir/rule
@@ -698,6 +713,33 @@ src/demo03_pub_person.cpp.s:
 	cd /home/opt/ysl_ws/build && $(MAKE) -f plumbing_pub_sub/CMakeFiles/demo03_pub_person.dir/build.make plumbing_pub_sub/CMakeFiles/demo03_pub_person.dir/src/demo03_pub_person.cpp.s
 .PHONY : src/demo03_pub_person.cpp.s
 
+src/demo04_sub_person.o: src/demo04_sub_person.cpp.o
+
+.PHONY : src/demo04_sub_person.o
+
+# target to build an object file
+src/demo04_sub_person.cpp.o:
+	cd /home/opt/ysl_ws/build && $(MAKE) -f plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/build.make plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/src/demo04_sub_person.cpp.o
+.PHONY : src/demo04_sub_person.cpp.o
+
+src/demo04_sub_person.i: src/demo04_sub_person.cpp.i
+
+.PHONY : src/demo04_sub_person.i
+
+# target to preprocess a source file
+src/demo04_sub_person.cpp.i:
+	cd /home/opt/ysl_ws/build && $(MAKE) -f plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/build.make plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/src/demo04_sub_person.cpp.i
+.PHONY : src/demo04_sub_person.cpp.i
+
+src/demo04_sub_person.s: src/demo04_sub_person.cpp.s
+
+.PHONY : src/demo04_sub_person.s
+
+# target to generate assembly for a file
+src/demo04_sub_person.cpp.s:
+	cd /home/opt/ysl_ws/build && $(MAKE) -f plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/build.make plumbing_pub_sub/CMakeFiles/demo04_sub_person.dir/src/demo04_sub_person.cpp.s
+.PHONY : src/demo04_sub_person.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -705,6 +747,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
+	@echo "... install/local"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
@@ -733,7 +776,7 @@ help:
 	@echo "... plumbing_pub_sub_gennodejs"
 	@echo "... install"
 	@echo "... plumbing_pub_sub_generate_messages_py"
-	@echo "... install/local"
+	@echo "... demo04_sub_person"
 	@echo "... plumbing_pub_sub_gencpp"
 	@echo "... plumbing_pub_sub_genpy"
 	@echo "... demo01_pub"
@@ -750,6 +793,9 @@ help:
 	@echo "... src/demo03_pub_person.o"
 	@echo "... src/demo03_pub_person.i"
 	@echo "... src/demo03_pub_person.s"
+	@echo "... src/demo04_sub_person.o"
+	@echo "... src/demo04_sub_person.i"
+	@echo "... src/demo04_sub_person.s"
 .PHONY : help
 
 
