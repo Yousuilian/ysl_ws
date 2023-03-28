@@ -8,7 +8,9 @@
       "includePath": [
         "/opt/ros/melodic/include/**",
         "/usr/include/**",
-        "/home/ysl/ysl_ws/devel/include/**"
+        "/home/opt/ysl_ws/devel/include/**",
+        "/home/ysl/ysl_ws/devel/include/**"//加入两个头文件的path这样就可以在两个设备上包含文件
+
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",

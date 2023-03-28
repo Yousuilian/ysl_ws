@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/ysl/ysl_ws/src/plumbing_server_client/srv/AddInts.srv"
+services_str = "/home/opt/ysl_ws/src/plumbing_server_client/srv/AddInts.srv"
 pkg_name = "plumbing_server_client"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

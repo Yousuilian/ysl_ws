@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/plumbing_pub_sub_generate_messages_nodejs"
-  "/home/ysl/ysl_ws/devel/share/gennodejs/ros/plumbing_pub_sub/msg/Person.js"
+  "/home/opt/ysl_ws/devel/share/gennodejs/ros/plumbing_pub_sub/msg/Person.js"
 )
 
 # Per-language clean rules from dependency scanning.
