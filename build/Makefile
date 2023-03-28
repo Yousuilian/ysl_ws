@@ -909,6 +909,19 @@ demo01_server/fast:
 .PHONY : demo01_server/fast
 
 #=============================================================================
+# Target rules for targets named test03_service_client
+
+# Build rule for target.
+test03_service_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test03_service_client
+.PHONY : test03_service_client
+
+# fast build rule for target.
+test03_service_client/fast:
+	$(MAKE) -f plumbing_test/CMakeFiles/test03_service_client.dir/build.make plumbing_test/CMakeFiles/test03_service_client.dir/build
+.PHONY : test03_service_client/fast
+
+#=============================================================================
 # Target rules for targets named test02_sub_pose
 
 # Build rule for target.
@@ -1199,6 +1212,7 @@ help:
 	@echo "... plumbing_server_client_generate_messages_py"
 	@echo "... plumbing_server_client_genpy"
 	@echo "... demo01_server"
+	@echo "... test03_service_client"
 	@echo "... test02_sub_pose"
 	@echo "... turtlesim_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_py"

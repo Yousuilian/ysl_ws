@@ -106,6 +106,7 @@
 /home/ysl/ysl_ws/build/plumbing_server_client/CMakeFiles/test.dir
 /home/ysl/ysl_ws/build/plumbing_test/CMakeFiles/install/strip.dir
 /home/ysl/ysl_ws/build/plumbing_test/CMakeFiles/install/local.dir
+/home/ysl/ysl_ws/build/plumbing_test/CMakeFiles/test03_service_client.dir
 /home/ysl/ysl_ws/build/plumbing_test/CMakeFiles/test02_sub_pose.dir
 /home/ysl/ysl_ws/build/plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir
 /home/ysl/ysl_ws/build/plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir

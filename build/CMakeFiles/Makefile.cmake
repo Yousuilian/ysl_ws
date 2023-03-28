@@ -294,6 +294,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "plumbing_server_client/CMakeFiles/plumbing_server_client_generate_messages_py.dir/DependInfo.cmake"
   "plumbing_server_client/CMakeFiles/plumbing_server_client_genpy.dir/DependInfo.cmake"
   "plumbing_server_client/CMakeFiles/demo01_server.dir/DependInfo.cmake"
+  "plumbing_test/CMakeFiles/test03_service_client.dir/DependInfo.cmake"
   "plumbing_test/CMakeFiles/test02_sub_pose.dir/DependInfo.cmake"
   "plumbing_test/CMakeFiles/turtlesim_generate_messages_cpp.dir/DependInfo.cmake"
   "plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake"

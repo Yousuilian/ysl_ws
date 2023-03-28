@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+plumbing_test/CMakeFiles/test03_service_client.dir/rule:
+	cd /home/ysl/ysl_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/test03_service_client.dir/rule
+.PHONY : plumbing_test/CMakeFiles/test03_service_client.dir/rule
+
+# Convenience name for target.
+test03_service_client: plumbing_test/CMakeFiles/test03_service_client.dir/rule
+
+.PHONY : test03_service_client
+
+# fast build rule for target.
+test03_service_client/fast:
+	cd /home/ysl/ysl_ws/build && $(MAKE) -f plumbing_test/CMakeFiles/test03_service_client.dir/build.make plumbing_test/CMakeFiles/test03_service_client.dir/build
+.PHONY : test03_service_client/fast
+
+# Convenience name for target.
 plumbing_test/CMakeFiles/test02_sub_pose.dir/rule:
 	cd /home/ysl/ysl_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/test02_sub_pose.dir/rule
 .PHONY : plumbing_test/CMakeFiles/test02_sub_pose.dir/rule
@@ -476,6 +491,33 @@ src/test02_sub_pose.cpp.s:
 	cd /home/ysl/ysl_ws/build && $(MAKE) -f plumbing_test/CMakeFiles/test02_sub_pose.dir/build.make plumbing_test/CMakeFiles/test02_sub_pose.dir/src/test02_sub_pose.cpp.s
 .PHONY : src/test02_sub_pose.cpp.s
 
+src/test03_service_client.o: src/test03_service_client.cpp.o
+
+.PHONY : src/test03_service_client.o
+
+# target to build an object file
+src/test03_service_client.cpp.o:
+	cd /home/ysl/ysl_ws/build && $(MAKE) -f plumbing_test/CMakeFiles/test03_service_client.dir/build.make plumbing_test/CMakeFiles/test03_service_client.dir/src/test03_service_client.cpp.o
+.PHONY : src/test03_service_client.cpp.o
+
+src/test03_service_client.i: src/test03_service_client.cpp.i
+
+.PHONY : src/test03_service_client.i
+
+# target to preprocess a source file
+src/test03_service_client.cpp.i:
+	cd /home/ysl/ysl_ws/build && $(MAKE) -f plumbing_test/CMakeFiles/test03_service_client.dir/build.make plumbing_test/CMakeFiles/test03_service_client.dir/src/test03_service_client.cpp.i
+.PHONY : src/test03_service_client.cpp.i
+
+src/test03_service_client.s: src/test03_service_client.cpp.s
+
+.PHONY : src/test03_service_client.s
+
+# target to generate assembly for a file
+src/test03_service_client.cpp.s:
+	cd /home/ysl/ysl_ws/build && $(MAKE) -f plumbing_test/CMakeFiles/test03_service_client.dir/build.make plumbing_test/CMakeFiles/test03_service_client.dir/src/test03_service_client.cpp.s
+.PHONY : src/test03_service_client.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -484,6 +526,7 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... test03_service_client"
 	@echo "... test02_sub_pose"
 	@echo "... turtlesim_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_py"
@@ -512,6 +555,9 @@ help:
 	@echo "... src/test02_sub_pose.o"
 	@echo "... src/test02_sub_pose.i"
 	@echo "... src/test02_sub_pose.s"
+	@echo "... src/test03_service_client.o"
+	@echo "... src/test03_service_client.i"
+	@echo "... src/test03_service_client.s"
 .PHONY : help
 
 
