@@ -1,8 +1,0 @@
-prefix=/home/opt/ysl_ws/install
-
-Name: plnmbing_param_server
-Description: Description of plnmbing_param_server
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

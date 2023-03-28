@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/opt/ysl_ws/src/plumbing_test
-# Build directory: /home/opt/ysl_ws/build/plumbing_test
+# Source directory: /home/ysl/ysl_ws/src/plumbing_test
+# Build directory: /home/ysl/ysl_ws/build/plumbing_test
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

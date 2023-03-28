@@ -1,4 +1,4 @@
-prefix=/home/opt/ysl_ws/devel
+prefix=/home/ysl/ysl_ws/devel
 
 Name: plumbing_test
 Description: Description of plumbing_test

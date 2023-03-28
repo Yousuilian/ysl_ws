@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/demo02_param_get.dir/src/demo02_param_get.cpp.o"
-  "/home/opt/ysl_ws/devel/lib/plumbing_param_server/demo02_param_get.pdb"
-  "/home/opt/ysl_ws/devel/lib/plumbing_param_server/demo02_param_get"
+  "/home/ysl/ysl_ws/devel/lib/plumbing_param_server/demo02_param_get.pdb"
+  "/home/ysl/ysl_ws/devel/lib/plumbing_param_server/demo02_param_get"
 )
 
 # Per-language clean rules from dependency scanning.

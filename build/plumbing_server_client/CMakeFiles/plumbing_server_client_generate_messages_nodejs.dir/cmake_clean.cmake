@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/plumbing_server_client_generate_messages_nodejs"
-  "/home/opt/ysl_ws/devel/share/gennodejs/ros/plumbing_server_client/srv/AddInts.js"
+  "/home/ysl/ysl_ws/devel/share/gennodejs/ros/plumbing_server_client/srv/AddInts.js"
 )
 
 # Per-language clean rules from dependency scanning.

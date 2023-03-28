@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/opt/ysl_ws/src
+CMAKE_SOURCE_DIR = /home/ysl/ysl_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/opt/ysl_ws/build
+CMAKE_BINARY_DIR = /home/ysl/ysl_ws/build
 
 # Utility rule file for geometry_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/build: geometry_
 .PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 
 plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
-	cd /home/opt/ysl_ws/build/plumbing_test && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/ysl/ysl_ws/build/plumbing_test && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend:
-	cd /home/opt/ysl_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/opt/ysl_ws/src /home/opt/ysl_ws/src/plumbing_test /home/opt/ysl_ws/build /home/opt/ysl_ws/build/plumbing_test /home/opt/ysl_ws/build/plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ysl/ysl_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ysl/ysl_ws/src /home/ysl/ysl_ws/src/plumbing_test /home/ysl/ysl_ws/build /home/ysl/ysl_ws/build/plumbing_test /home/ysl/ysl_ws/build/plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 

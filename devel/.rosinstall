@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/opt/ysl_ws/devel/setup.sh
+    local-name: /home/ysl/ysl_ws/devel/setup.sh
