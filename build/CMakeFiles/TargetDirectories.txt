@@ -120,6 +120,7 @@
 /home/ysl/ysl_ws/build/plumbing_test/CMakeFiles/std_srvs_generate_messages_cpp.dir
 /home/ysl/ysl_ws/build/plumbing_test/CMakeFiles/list_install_components.dir
 /home/ysl/ysl_ws/build/plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir
+/home/ysl/ysl_ws/build/plumbing_test/CMakeFiles/test04_param.dir
 /home/ysl/ysl_ws/build/plumbing_test/CMakeFiles/test01_pub_twist.dir
 /home/ysl/ysl_ws/build/plumbing_test/CMakeFiles/turtlesim_generate_messages_nodejs.dir
 /home/ysl/ysl_ws/build/plumbing_test/CMakeFiles/test.dir

@@ -318,6 +318,21 @@ geometry_msgs_generate_messages_eus/fast:
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
+plumbing_test/CMakeFiles/test04_param.dir/rule:
+	cd /home/ysl/ysl_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/test04_param.dir/rule
+.PHONY : plumbing_test/CMakeFiles/test04_param.dir/rule
+
+# Convenience name for target.
+test04_param: plumbing_test/CMakeFiles/test04_param.dir/rule
+
+.PHONY : test04_param
+
+# fast build rule for target.
+test04_param/fast:
+	cd /home/ysl/ysl_ws/build && $(MAKE) -f plumbing_test/CMakeFiles/test04_param.dir/build.make plumbing_test/CMakeFiles/test04_param.dir/build
+.PHONY : test04_param/fast
+
+# Convenience name for target.
 plumbing_test/CMakeFiles/test01_pub_twist.dir/rule:
 	cd /home/ysl/ysl_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plumbing_test/CMakeFiles/test01_pub_twist.dir/rule
 .PHONY : plumbing_test/CMakeFiles/test01_pub_twist.dir/rule
@@ -518,6 +533,33 @@ src/test03_service_client.cpp.s:
 	cd /home/ysl/ysl_ws/build && $(MAKE) -f plumbing_test/CMakeFiles/test03_service_client.dir/build.make plumbing_test/CMakeFiles/test03_service_client.dir/src/test03_service_client.cpp.s
 .PHONY : src/test03_service_client.cpp.s
 
+src/test04_param.o: src/test04_param.cpp.o
+
+.PHONY : src/test04_param.o
+
+# target to build an object file
+src/test04_param.cpp.o:
+	cd /home/ysl/ysl_ws/build && $(MAKE) -f plumbing_test/CMakeFiles/test04_param.dir/build.make plumbing_test/CMakeFiles/test04_param.dir/src/test04_param.cpp.o
+.PHONY : src/test04_param.cpp.o
+
+src/test04_param.i: src/test04_param.cpp.i
+
+.PHONY : src/test04_param.i
+
+# target to preprocess a source file
+src/test04_param.cpp.i:
+	cd /home/ysl/ysl_ws/build && $(MAKE) -f plumbing_test/CMakeFiles/test04_param.dir/build.make plumbing_test/CMakeFiles/test04_param.dir/src/test04_param.cpp.i
+.PHONY : src/test04_param.cpp.i
+
+src/test04_param.s: src/test04_param.cpp.s
+
+.PHONY : src/test04_param.s
+
+# target to generate assembly for a file
+src/test04_param.cpp.s:
+	cd /home/ysl/ysl_ws/build && $(MAKE) -f plumbing_test/CMakeFiles/test04_param.dir/build.make plumbing_test/CMakeFiles/test04_param.dir/src/test04_param.cpp.s
+.PHONY : src/test04_param.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -540,6 +582,7 @@ help:
 	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... list_install_components"
 	@echo "... geometry_msgs_generate_messages_eus"
+	@echo "... test04_param"
 	@echo "... test01_pub_twist"
 	@echo "... turtlesim_generate_messages_nodejs"
 	@echo "... test"
@@ -558,6 +601,9 @@ help:
 	@echo "... src/test03_service_client.o"
 	@echo "... src/test03_service_client.i"
 	@echo "... src/test03_service_client.s"
+	@echo "... src/test04_param.o"
+	@echo "... src/test04_param.i"
+	@echo "... src/test04_param.s"
 .PHONY : help
 
 
