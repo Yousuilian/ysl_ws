@@ -1,4 +1,4 @@
-prefix=/home/ysl/ysl_ws/install
+prefix=/home/opt/ysl_ws/install
 
 Name: plumbing_server_client
 Description: Description of plumbing_server_client
