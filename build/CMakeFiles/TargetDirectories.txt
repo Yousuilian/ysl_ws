@@ -104,3 +104,16 @@
 /home/opt/ysl_ws/build/plumbing_server_client/CMakeFiles/rebuild_cache.dir
 /home/opt/ysl_ws/build/plumbing_server_client/CMakeFiles/demo01_server.dir
 /home/opt/ysl_ws/build/plumbing_server_client/CMakeFiles/test.dir
+/home/opt/ysl_ws/build/plumbing_test/CMakeFiles/install/strip.dir
+/home/opt/ysl_ws/build/plumbing_test/CMakeFiles/install.dir
+/home/opt/ysl_ws/build/plumbing_test/CMakeFiles/edit_cache.dir
+/home/opt/ysl_ws/build/plumbing_test/CMakeFiles/install/local.dir
+/home/opt/ysl_ws/build/plumbing_test/CMakeFiles/test.dir
+/home/opt/ysl_ws/build/plumbing_test/CMakeFiles/rebuild_cache.dir
+/home/opt/ysl_ws/build/plumbing_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir
+/home/opt/ysl_ws/build/plumbing_test/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
+/home/opt/ysl_ws/build/plumbing_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+/home/opt/ysl_ws/build/plumbing_test/CMakeFiles/list_install_components.dir
+/home/opt/ysl_ws/build/plumbing_test/CMakeFiles/test01_pub_twist.dir
+/home/opt/ysl_ws/build/plumbing_test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+/home/opt/ysl_ws/build/plumbing_test/CMakeFiles/geometry_msgs_generate_messages_py.dir

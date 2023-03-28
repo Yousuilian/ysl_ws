@@ -1,0 +1,11 @@
+length: 0.5
+rosdistro: 'melodic
+
+  '
+roslaunch:
+  uris: {host_opt__43253: 'http://opt:43253/'}
+rosversion: '1.14.13
+
+  '
+run_id: 3f2a5d80-cd6a-11ed-9363-88045b504002
+width: 0.4
