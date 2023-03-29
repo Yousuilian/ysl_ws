@@ -38,6 +38,9 @@
 /home/ysl/ysl_ws/build/plumbing_apis/CMakeFiles/install/strip.dir
 /home/ysl/ysl_ws/build/plumbing_apis/CMakeFiles/install/local.dir
 /home/ysl/ysl_ws/build/plumbing_apis/CMakeFiles/test.dir
+/home/ysl/ysl_ws/build/plumbing_apis/CMakeFiles/demo04_apis_log.dir
+/home/ysl/ysl_ws/build/plumbing_apis/CMakeFiles/demo03_apis_time.dir
+/home/ysl/ysl_ws/build/plumbing_apis/CMakeFiles/demo02_apis_sub.dir
 /home/ysl/ysl_ws/build/plumbing_apis/CMakeFiles/list_install_components.dir
 /home/ysl/ysl_ws/build/plumbing_apis/CMakeFiles/roscpp_generate_messages_py.dir
 /home/ysl/ysl_ws/build/plumbing_apis/CMakeFiles/roscpp_generate_messages_eus.dir

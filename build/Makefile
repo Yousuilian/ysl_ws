@@ -285,6 +285,45 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named demo04_apis_log
+
+# Build rule for target.
+demo04_apis_log: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo04_apis_log
+.PHONY : demo04_apis_log
+
+# fast build rule for target.
+demo04_apis_log/fast:
+	$(MAKE) -f plumbing_apis/CMakeFiles/demo04_apis_log.dir/build.make plumbing_apis/CMakeFiles/demo04_apis_log.dir/build
+.PHONY : demo04_apis_log/fast
+
+#=============================================================================
+# Target rules for targets named demo03_apis_time
+
+# Build rule for target.
+demo03_apis_time: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo03_apis_time
+.PHONY : demo03_apis_time
+
+# fast build rule for target.
+demo03_apis_time/fast:
+	$(MAKE) -f plumbing_apis/CMakeFiles/demo03_apis_time.dir/build.make plumbing_apis/CMakeFiles/demo03_apis_time.dir/build
+.PHONY : demo03_apis_time/fast
+
+#=============================================================================
+# Target rules for targets named demo02_apis_sub
+
+# Build rule for target.
+demo02_apis_sub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo02_apis_sub
+.PHONY : demo02_apis_sub
+
+# fast build rule for target.
+demo02_apis_sub/fast:
+	$(MAKE) -f plumbing_apis/CMakeFiles/demo02_apis_sub.dir/build.make plumbing_apis/CMakeFiles/demo02_apis_sub.dir/build
+.PHONY : demo02_apis_sub/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_py
 
 # Build rule for target.
@@ -1190,6 +1229,9 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... demo04_apis_log"
+	@echo "... demo03_apis_time"
+	@echo "... demo02_apis_sub"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... roscpp_generate_messages_lisp"

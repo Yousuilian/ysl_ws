@@ -134,7 +134,9 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(demo01_apis_pub src/demo01_apis_pub.cpp)
-
+add_executable(demo02_apis_sub src/demo02_apis_sub.cpp)
+add_executable(demo03_apis_time src/demo03_apis_time.cpp)
+add_executable(demo04_apis_log src/demo04_apis_log.cpp)
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -144,12 +146,22 @@ add_executable(demo01_apis_pub src/demo01_apis_pub.cpp)
 ## Add cmake target dependencies of the executable
 ## same as for the library above
 add_dependencies(demo01_apis_pub ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-
+add_dependencies(demo02_apis_sub ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(demo03_apis_time ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(demo04_apis_log ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 ## Specify libraries to link a library or executable target against
 target_link_libraries(demo01_apis_pub
   ${catkin_LIBRARIES}
 )
-
+target_link_libraries(demo02_apis_sub
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(demo03_apis_time
+  ${catkin_LIBRARIES}
+)
+target_link_libraries(demo04_apis_log
+  ${catkin_LIBRARIES}
+)
 #############
 ## Install ##
 #############
