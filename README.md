@@ -16,3 +16,17 @@
 ## 4.输入/*
     直接输出/**/
 ## 5.使用超链接的句子前面不加Tab
+
+# 常用指令&网站
+```bash
+sudo chmod 777 ××× （每个人都有读和写以及执行的权限）
+wget http://fishros.com/install -O fishros && bash fishros
+https://github.com/Yousuilian/ysl_ws
+git --version
+git config --global user.name "Mike Li"
+git config --global user.email "1726582664@qq.com"
+git config user.name
+git config user.email
+ssh-keygen -t rsa -C "1726582664@qq.com"
+git push -u origin master
+```
