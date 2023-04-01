@@ -1,0 +1,20 @@
+<launch>
+    <!-- 启动的节点 注意后面的斜杠是否要加-->
+    <!-- 在node外设置 -->
+    <param name="paramA" type="int" value="100" />
+    <!-- 加载参数 -->
+    <rosparam command="load" file="$(find launch01_basic)/launch/params.yaml"/>
+    <!-- 导出参数，导出参数会在node导出之前就执行，有一个优先级的关系，想要导出很多参数的话就要新建launch文件，后执行 -->
+    <!-- <rosparam command="dump" file="$(find launch01_basic)/launch/params_out.yaml"/> -->
+    <node pkg="turtlesim" type="turtlesim_node" name="my_turtle" output="screen">
+        <!-- 在node内设置 -->
+        <!-- 重命名 -->
+        <remap from="/turtle1/cmd_vel" to="cmd_vel"/>
+        <!-- 设置参数 -->
+        <param name="paramB" type="double" value="3.14"/>
+        <!-- 加载参数 -->
+        <rosparam command="load" file="$(find launch01_basic)/launch/params.yaml"/>
+    </node>
+    <!--键盘控制节点  -->
+    <node pkg="turtlesim" type="turtle_teleop_key" name="my_key" output="screen"/>
+</launch>

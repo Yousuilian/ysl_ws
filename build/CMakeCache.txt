@@ -47,7 +47,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
 // CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
-CMAKE_BUILD_TYPE:STRING=RelWithDebInfo
+CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -264,7 +264,7 @@ RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 
 //Name of the computer/site where compile is being run
-SITE:STRING=ysl-virtual-machine
+SITE:STRING=ysl-double
 
 //LSB Distrib tag
 UBUNTU:BOOL=TRUE
@@ -360,6 +360,12 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//Value Computed by CMake
+launch01_basic_BINARY_DIR:STATIC=/home/ysl/ysl_ws/build/launch01_basic
+
+//Value Computed by CMake
+launch01_basic_SOURCE_DIR:STATIC=/home/ysl/ysl_ws/src/launch01_basic
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
 
@@ -374,6 +380,12 @@ plumbing_apis_BINARY_DIR:STATIC=/home/ysl/ysl_ws/build/plumbing_apis
 
 //Value Computed by CMake
 plumbing_apis_SOURCE_DIR:STATIC=/home/ysl/ysl_ws/src/plumbing_apis
+
+//Value Computed by CMake
+plumbing_my_BINARY_DIR:STATIC=/home/ysl/ysl_ws/build/plumbing_my
+
+//Value Computed by CMake
+plumbing_my_SOURCE_DIR:STATIC=/home/ysl/ysl_ws/src/plumbing_my
 
 //Value Computed by CMake
 plumbing_param_server_BINARY_DIR:STATIC=/home/ysl/ysl_ws/build/plumbing_param_server
@@ -542,7 +554,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

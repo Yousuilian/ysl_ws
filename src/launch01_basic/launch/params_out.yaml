@@ -1,0 +1,15 @@
+bg_B: 253
+bg_G: 50
+bg_R: 100
+my_turtle: {background_b: 255, background_g: 86, background_r: 69, bg_B: 255, bg_G: 50,
+  bg_R: 100, paramB: 3.14}
+paramA: 100
+rosdistro: 'melodic
+
+  '
+roslaunch:
+  uris: {host_ysl_double__36799: 'http://ysl-double:36799/', host_ysl_double__44591: 'http://ysl-double:44591/'}
+rosversion: '1.14.13
+
+  '
+run_id: d3597e10-d0cf-11ed-a27f-34415df0a6d6

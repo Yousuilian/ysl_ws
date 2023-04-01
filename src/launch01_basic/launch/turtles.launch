@@ -1,0 +1,15 @@
+<launch>
+    <!-- 启动两对乌龟GUI与键盘控制节点 -->
+    <!-- 因为分组了，否则不分组的话第二个启动的节点会把第一个启动的节点干掉 -->
+    <!-- 可以使用 -->
+    <group ns="first">
+        <node pkg="turtlesim" type="turtlesim_node" name="my_turtle" output="screen"/>
+        <node pkg="turtlesim" type="turtle_teleop_key" name="my_key" output="screen"/>
+    </group>
+
+    <group ns="second">
+        <node pkg="turtlesim" type="turtlesim_node" name="my_turtle" output="screen"/>
+        <node pkg="turtlesim" type="turtle_teleop_key" name="my_key" output="screen"/>
+    </group>
+
+</launch>
