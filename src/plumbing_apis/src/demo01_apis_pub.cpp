@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
     ros::Rate rate(2);
     int count = 0;
     ros::Duration(3).sleep();
-    while (ros::ok)
+    while (ros::ok())
     {
         // if (count >= 10)
         // {

@@ -29,7 +29,7 @@ int main(int argc, char  *argv[])
     //5-2.设置发布频率
     ros::Rate rate(1);
     //5-3.循环发布数据
-    while (ros::ok)
+    while (ros::ok())
     {
         //修改数据
         person.age += 1;

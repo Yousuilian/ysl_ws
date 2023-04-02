@@ -974,6 +974,19 @@ demo01_server/fast:
 .PHONY : demo01_server/fast
 
 #=============================================================================
+# Target rules for targets named topic_name
+
+# Build rule for target.
+topic_name: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 topic_name
+.PHONY : topic_name
+
+# fast build rule for target.
+topic_name/fast:
+	$(MAKE) -f rename02_topic/CMakeFiles/topic_name.dir/build.make rename02_topic/CMakeFiles/topic_name.dir/build
+.PHONY : topic_name/fast
+
+#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -1295,6 +1308,7 @@ help:
 	@echo "... plumbing_server_client_generate_messages_py"
 	@echo "... plumbing_server_client_genpy"
 	@echo "... demo01_server"
+	@echo "... topic_name"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... turtlesim_generate_messages_py"
 	@echo "... turtlesim_generate_messages_nodejs"

@@ -13,7 +13,7 @@ int main(int argc, char  *argv[])
     twist.angular.x = 0.0;
     twist.angular.y = 0.0;
     twist.angular.z = 0.5;
-    while (ros::ok)
+    while (ros::ok())
     {
         pub.publish(twist);
         rate.sleep();
