@@ -139,6 +139,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ysl/ysl_ws/build/rename01_node/cmake_install.cmake")
   include("/home/ysl/ysl_ws/build/rename02_topic/cmake_install.cmake")
   include("/home/ysl/ysl_ws/build/rename03_param/cmake_install.cmake")
+  include("/home/ysl/ysl_ws/build/tf01_static/cmake_install.cmake")
   include("/home/ysl/ysl_ws/build/launch01_basic/cmake_install.cmake")
   include("/home/ysl/ysl_ws/build/plumbing_test/cmake_install.cmake")
 

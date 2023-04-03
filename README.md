@@ -28,6 +28,7 @@ sudo apt-get install ros-melodic-teleop-twist-keyboard （18.04对应melodic)
 rqt_graph  (计算图)
 rosnode cleanup  (清除节点)
 rosrun turtlesim turtlesim_node （启动乌龟节点)
+sudo apt install ros-melodic-tf2-geometry-msgs (安装相应的包)
 ```
 
 # VSCode快捷键
@@ -40,6 +41,16 @@ rosrun turtlesim turtlesim_node （启动乌龟节点)
 ```
 
 # 笔记：（记录一些即时笔记）
+
+## 10.红绿蓝XYZ轴偏移方向
+
+## 9.roscore没关闭就关发布程序会导致终端无法继续运行
+
+## 8.有红色波浪号可以等一会、保存、编译都行
+
+## 7.点头pitch，摇头yaw，roll是横滚
+
+## 6.dpkg问题使得无法安装一些包（待解决）
 
 ## 5.Ctrl + Shift + b（编译快捷键）问题也自动好了
 
