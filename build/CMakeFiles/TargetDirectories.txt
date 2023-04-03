@@ -138,6 +138,14 @@
 /home/ysl/ysl_ws/build/rename02_topic/CMakeFiles/edit_cache.dir
 /home/ysl/ysl_ws/build/rename02_topic/CMakeFiles/rebuild_cache.dir
 /home/ysl/ysl_ws/build/rename02_topic/CMakeFiles/install.dir
+/home/ysl/ysl_ws/build/rename03_param/CMakeFiles/install/strip.dir
+/home/ysl/ysl_ws/build/rename03_param/CMakeFiles/install/local.dir
+/home/ysl/ysl_ws/build/rename03_param/CMakeFiles/test.dir
+/home/ysl/ysl_ws/build/rename03_param/CMakeFiles/list_install_components.dir
+/home/ysl/ysl_ws/build/rename03_param/CMakeFiles/param_name.dir
+/home/ysl/ysl_ws/build/rename03_param/CMakeFiles/edit_cache.dir
+/home/ysl/ysl_ws/build/rename03_param/CMakeFiles/rebuild_cache.dir
+/home/ysl/ysl_ws/build/rename03_param/CMakeFiles/install.dir
 /home/ysl/ysl_ws/build/launch01_basic/CMakeFiles/install/strip.dir
 /home/ysl/ysl_ws/build/launch01_basic/CMakeFiles/install/local.dir
 /home/ysl/ysl_ws/build/launch01_basic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
