@@ -17,7 +17,7 @@ int main(int argc, char  *argv[])
 {
     // 2.设置编码 节点初始化 NodeHandle
     setlocale(LC_ALL,"");
-    ros::init(argc,argv,"Pub");
+    ros::init(argc,argv,"static_pub");
     ros::NodeHandle nh;
     // 3.创建发布对象
     tf2_ros::StaticTransformBroadcaster pub;
