@@ -1506,6 +1506,45 @@ demo01_dynamic_pub/fast:
 	$(MAKE) -f tf02_dynamic/CMakeFiles/demo01_dynamic_pub.dir/build.make tf02_dynamic/CMakeFiles/demo01_dynamic_pub.dir/build
 .PHONY : demo01_dynamic_pub/fast
 
+#=============================================================================
+# Target rules for targets named test02_pub_turtle
+
+# Build rule for target.
+test02_pub_turtle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test02_pub_turtle
+.PHONY : test02_pub_turtle
+
+# fast build rule for target.
+test02_pub_turtle/fast:
+	$(MAKE) -f tf04_test/CMakeFiles/test02_pub_turtle.dir/build.make tf04_test/CMakeFiles/test02_pub_turtle.dir/build
+.PHONY : test02_pub_turtle/fast
+
+#=============================================================================
+# Target rules for targets named test01_new_turtle
+
+# Build rule for target.
+test01_new_turtle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test01_new_turtle
+.PHONY : test01_new_turtle
+
+# fast build rule for target.
+test01_new_turtle/fast:
+	$(MAKE) -f tf04_test/CMakeFiles/test01_new_turtle.dir/build.make tf04_test/CMakeFiles/test01_new_turtle.dir/build
+.PHONY : test01_new_turtle/fast
+
+#=============================================================================
+# Target rules for targets named test03_control_turtle2
+
+# Build rule for target.
+test03_control_turtle2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test03_control_turtle2
+.PHONY : test03_control_turtle2
+
+# fast build rule for target.
+test03_control_turtle2/fast:
+	$(MAKE) -f tf04_test/CMakeFiles/test03_control_turtle2.dir/build.make tf04_test/CMakeFiles/test03_control_turtle2.dir/build
+.PHONY : test03_control_turtle2/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1622,6 +1661,9 @@ help:
 	@echo "... test01_pub_twist"
 	@echo "... demo02_dynamic_sub"
 	@echo "... demo01_dynamic_pub"
+	@echo "... test02_pub_turtle"
+	@echo "... test01_new_turtle"
+	@echo "... test03_control_turtle2"
 .PHONY : help
 
 

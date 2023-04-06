@@ -144,6 +144,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ysl/ysl_ws/build/launch01_basic/cmake_install.cmake")
   include("/home/ysl/ysl_ws/build/plumbing_test/cmake_install.cmake")
   include("/home/ysl/ysl_ws/build/tf02_dynamic/cmake_install.cmake")
+  include("/home/ysl/ysl_ws/build/tf04_test/cmake_install.cmake")
 
 endif()
 

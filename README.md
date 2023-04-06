@@ -29,6 +29,9 @@ rqt_graph  (计算图)
 rosnode cleanup  (清除节点)
 rosrun turtlesim turtlesim_node （启动乌龟节点)
 sudo apt install ros-melodic-tf2-geometry-msgs (安装相应的包)
+sudo apt install ros-melodic-tf2-tools
+rosrun tf2_tools view_frames.py
+evince frames.pdf  (打开PDF文件指令)
 ```
 
 # VSCode快捷键
@@ -42,6 +45,10 @@ sudo apt install ros-melodic-tf2-geometry-msgs (安装相应的包)
 
 # 笔记：（记录一些即时笔记）
 
+## 12.在tf04_test中出现   错误提示:"turtle2 " passed to lookupTransform argument target_frame does not exist.
+
+## 11.坐标系查看三种方式，指令、rviz、tf2_tools
+
 ## 10.红绿蓝XYZ轴偏移方向
 
 ## 9.roscore没关闭就关发布程序会导致终端无法继续运行
@@ -50,7 +57,7 @@ sudo apt install ros-melodic-tf2-geometry-msgs (安装相应的包)
 
 ## 7.点头pitch，摇头yaw，roll是横滚
 
-## 6.dpkg问题使得无法安装一些包（待解决）
+## 6.dpkg问题使得无法安装一些包（其实可能会安装好，只是dpkg还是有问题）
 
 ## 5.Ctrl + Shift + b（编译快捷键）问题也自动好了
 
