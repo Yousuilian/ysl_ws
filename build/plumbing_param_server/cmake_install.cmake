@@ -1,8 +1,8 @@
-# Install script for directory: /home/ysl/ysl_ws/src/plumbing_param_server
+# Install script for directory: /home/opt/ysl_ws/src/plumbing_param_server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ysl/ysl_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/opt/ysl_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ysl/ysl_ws/build/plumbing_param_server/catkin_generated/installspace/plumbing_param_server.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/opt/ysl_ws/build/plumbing_param_server/catkin_generated/installspace/plumbing_param_server.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_param_server/cmake" TYPE FILE FILES
-    "/home/ysl/ysl_ws/build/plumbing_param_server/catkin_generated/installspace/plumbing_param_serverConfig.cmake"
-    "/home/ysl/ysl_ws/build/plumbing_param_server/catkin_generated/installspace/plumbing_param_serverConfig-version.cmake"
+    "/home/opt/ysl_ws/build/plumbing_param_server/catkin_generated/installspace/plumbing_param_serverConfig.cmake"
+    "/home/opt/ysl_ws/build/plumbing_param_server/catkin_generated/installspace/plumbing_param_serverConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_param_server" TYPE FILE FILES "/home/ysl/ysl_ws/src/plumbing_param_server/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_param_server" TYPE FILE FILES "/home/opt/ysl_ws/src/plumbing_param_server/package.xml")
 endif()
 

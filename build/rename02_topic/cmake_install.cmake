@@ -1,8 +1,8 @@
-# Install script for directory: /home/ysl/ysl_ws/src/rename02_topic
+# Install script for directory: /home/opt/ysl_ws/src/rename02_topic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ysl/ysl_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/opt/ysl_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ysl/ysl_ws/build/rename02_topic/catkin_generated/installspace/rename02_topic.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/opt/ysl_ws/build/rename02_topic/catkin_generated/installspace/rename02_topic.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rename02_topic/cmake" TYPE FILE FILES
-    "/home/ysl/ysl_ws/build/rename02_topic/catkin_generated/installspace/rename02_topicConfig.cmake"
-    "/home/ysl/ysl_ws/build/rename02_topic/catkin_generated/installspace/rename02_topicConfig-version.cmake"
+    "/home/opt/ysl_ws/build/rename02_topic/catkin_generated/installspace/rename02_topicConfig.cmake"
+    "/home/opt/ysl_ws/build/rename02_topic/catkin_generated/installspace/rename02_topicConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rename02_topic" TYPE FILE FILES "/home/ysl/ysl_ws/src/rename02_topic/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rename02_topic" TYPE FILE FILES "/home/opt/ysl_ws/src/rename02_topic/package.xml")
 endif()
 

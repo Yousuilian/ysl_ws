@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/demo03_apis_time.dir/src/demo03_apis_time.cpp.o"
-  "/home/ysl/ysl_ws/devel/lib/plumbing_apis/demo03_apis_time.pdb"
-  "/home/ysl/ysl_ws/devel/lib/plumbing_apis/demo03_apis_time"
+  "/home/opt/ysl_ws/devel/lib/plumbing_apis/demo03_apis_time.pdb"
+  "/home/opt/ysl_ws/devel/lib/plumbing_apis/demo03_apis_time"
 )
 
 # Per-language clean rules from dependency scanning.

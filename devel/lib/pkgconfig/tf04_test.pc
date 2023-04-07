@@ -1,4 +1,4 @@
-prefix=/home/ysl/ysl_ws/devel
+prefix=/home/opt/ysl_ws/devel
 
 Name: tf04_test
 Description: Description of tf04_test

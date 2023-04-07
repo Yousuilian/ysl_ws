@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test04_param.dir/src/test04_param.cpp.o"
-  "/home/ysl/ysl_ws/devel/lib/plumbing_test/test04_param.pdb"
-  "/home/ysl/ysl_ws/devel/lib/plumbing_test/test04_param"
+  "/home/opt/ysl_ws/devel/lib/plumbing_test/test04_param.pdb"
+  "/home/opt/ysl_ws/devel/lib/plumbing_test/test04_param"
 )
 
 # Per-language clean rules from dependency scanning.

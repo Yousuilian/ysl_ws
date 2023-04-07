@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test01_new_turtle.dir/src/test01_new_turtle.cpp.o"
-  "/home/ysl/ysl_ws/devel/lib/tf04_test/test01_new_turtle.pdb"
-  "/home/ysl/ysl_ws/devel/lib/tf04_test/test01_new_turtle"
+  "/home/opt/ysl_ws/devel/lib/tf04_test/test01_new_turtle.pdb"
+  "/home/opt/ysl_ws/devel/lib/tf04_test/test01_new_turtle"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/demo01_static_pub.dir/src/demo01_static_pub.cpp.o"
-  "/home/ysl/ysl_ws/devel/lib/tf01_static/demo01_static_pub.pdb"
-  "/home/ysl/ysl_ws/devel/lib/tf01_static/demo01_static_pub"
+  "/home/opt/ysl_ws/devel/lib/tf01_static/demo01_static_pub.pdb"
+  "/home/opt/ysl_ws/devel/lib/tf01_static/demo01_static_pub"
 )
 
 # Per-language clean rules from dependency scanning.

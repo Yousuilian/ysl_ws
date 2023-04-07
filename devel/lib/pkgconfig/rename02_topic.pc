@@ -1,4 +1,4 @@
-prefix=/home/ysl/ysl_ws/devel
+prefix=/home/opt/ysl_ws/devel
 
 Name: rename02_topic
 Description: Description of rename02_topic

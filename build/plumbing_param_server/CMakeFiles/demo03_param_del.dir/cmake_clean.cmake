@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/demo03_param_del.dir/src/demo03_param_del.cpp.o"
-  "/home/ysl/ysl_ws/devel/lib/plumbing_param_server/demo03_param_del.pdb"
-  "/home/ysl/ysl_ws/devel/lib/plumbing_param_server/demo03_param_del"
+  "/home/opt/ysl_ws/devel/lib/plumbing_param_server/demo03_param_del.pdb"
+  "/home/opt/ysl_ws/devel/lib/plumbing_param_server/demo03_param_del"
 )
 
 # Per-language clean rules from dependency scanning.

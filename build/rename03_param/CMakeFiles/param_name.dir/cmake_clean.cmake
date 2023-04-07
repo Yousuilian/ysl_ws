@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/param_name.dir/src/param_name.cpp.o"
-  "/home/ysl/ysl_ws/devel/lib/rename03_param/param_name.pdb"
-  "/home/ysl/ysl_ws/devel/lib/rename03_param/param_name"
+  "/home/opt/ysl_ws/devel/lib/rename03_param/param_name.pdb"
+  "/home/opt/ysl_ws/devel/lib/rename03_param/param_name"
 )
 
 # Per-language clean rules from dependency scanning.

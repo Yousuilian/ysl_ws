@@ -1,4 +1,4 @@
-prefix=/home/ysl/ysl_ws/install
+prefix=/home/opt/ysl_ws/install
 
 Name: launch01_basic
 Description: Description of launch01_basic

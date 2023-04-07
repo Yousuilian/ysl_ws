@@ -1,4 +1,4 @@
-prefix=/home/ysl/ysl_ws/devel
+prefix=/home/opt/ysl_ws/devel
 
 Name: tf01_static
 Description: Description of tf01_static

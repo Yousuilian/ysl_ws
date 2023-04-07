@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ysl/ysl_ws/src/plumbing_server_client/src/demo01_server.cpp" "/home/ysl/ysl_ws/build/plumbing_server_client/CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o"
+  "/home/opt/ysl_ws/src/plumbing_server_client/src/demo01_server.cpp" "/home/opt/ysl_ws/build/plumbing_server_client/CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ysl/ysl_ws/devel/include"
+  "/home/opt/ysl_ws/devel/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/demo01_tfs.dir/src/demo01_tfs.cpp.o"
-  "/home/ysl/ysl_ws/devel/lib/tf03_tfs/demo01_tfs.pdb"
-  "/home/ysl/ysl_ws/devel/lib/tf03_tfs/demo01_tfs"
+  "/home/opt/ysl_ws/devel/lib/tf03_tfs/demo01_tfs.pdb"
+  "/home/opt/ysl_ws/devel/lib/tf03_tfs/demo01_tfs"
 )
 
 # Per-language clean rules from dependency scanning.
